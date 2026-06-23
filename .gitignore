@@ -1,0 +1,59 @@
+# === Secrets en clair (NEVER push) ===
+.secrets.json
+secrets.enc
+config_user.json
+hwid_backup.json
+identifiants.json
+.env
+*.env
+
+# === Données utilisateurs (PII) ===
+users_log.json
+
+# === Config locale ===
+config.ini
+
+# === Stats locales ===
+stats.json
+stats_locales.json
+parachute_*.json
+pipeline_state.json
+ipsafe_state.json
+
+# === Logs ===
+logs/
+*.log
+
+# === Build artifacts ===
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+build/
+dist/
+dossier_securise/
+*.exe
+update_temp.zip
+updater.bat
+WoW_Translator_new.exe
+
+# === Tor (downloaded at runtime) ===
+tor/
+tor_bundle.tar.gz
+IP_Safe/
+
+# === Sessions & browser data ===
+session_production/
+bdd_wow/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+
+# === Claude config ===
+.claude/
+CLAUDE.md
